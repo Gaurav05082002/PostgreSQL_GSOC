@@ -54,7 +54,11 @@ def scan_dashboards(folder_path):
 if __name__ == "__main__":
     dashboards_folder = "/content/drive/MyDrive/v11"
     scan_dashboards(dashboards_folder)
+```
+
 ## Result for Auto-Migrated Dashboards v11
+
+```json
 Dashboard: index-overview.json
  - Panel: 'Untitled' → Text panel using HTML (AngularJS)
 
