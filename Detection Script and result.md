@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 ## Result for Auto-Migrated Dashboards v11
 
-```json
+```python
 Dashboard: index-overview.json
  - Panel: 'Untitled' → Text panel using HTML (AngularJS)
 
