@@ -2,7 +2,7 @@
 
 Hello Community,
 
-I'm Gaurav, an undergraduate student from the Indian Institute of Technology Kharagpur. I’m thrilled to share that I have been selected as a contributor for **Google Summer of Code 2025**, under the mentorship of [Pavlo Golub](https://www.linkedin.com/in/pashagolub/), [Rajiv Harlalka](https://www.linkedin.com/in/rajivharlalka/), [Akshat Jaimini](https://www.linkedin.com/in/akshat-jaimini-05a610203/) for the [**PostgreSQL organization**](https://wiki.postgresql.org/wiki/GSoC_2025#Upgrade_pgwatch_Grafana_dashboards_to_v11). My project is centered around modernizing the [**pgwatch Grafana dashboards**](https://wiki.postgresql.org/wiki/GSoC_2025#Upgrade_pgwatch_Grafana_dashboards_to_v11), ensuring full compatibility with [**Grafana version 11**](https://github.com/cybertec-postgresql/pgwatch/tree/master/grafana).
+I'm Gaurav, an undergraduate student from the Indian Institute of Technology Kharagpur. I’m thrilled to share that I have been selected as a contributor for **Google Summer of Code 2025**, under the mentorship of [Pavlo Golub](https://www.linkedin.com/in/pashagolub/) and [Rajiv Harlalka](https://www.linkedin.com/in/rajivharlalka/) for the [**PostgreSQL organization**](https://wiki.postgresql.org/wiki/GSoC_2025#Upgrade_pgwatch_Grafana_dashboards_to_v11). My project is centered around modernizing the [**pgwatch Grafana dashboards**](https://wiki.postgresql.org/wiki/GSoC_2025#Upgrade_pgwatch_Grafana_dashboards_to_v11), ensuring full compatibility with [**Grafana version 11**](https://github.com/cybertec-postgresql/pgwatch/tree/master/grafana).
 
 ---
 
