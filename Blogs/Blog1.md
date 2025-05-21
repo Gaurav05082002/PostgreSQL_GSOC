@@ -76,6 +76,7 @@ Alongside the dashboard upgrades, the project will deliver a comprehensive **mig
 ---
 
 ## 🔗 Links
+ for more details please check the proposal
 
 - 📄 [Proposal PDF](https://github.com/Gaurav05082002/PostgreSQL_GSOC/blob/main/Postgre%20SQL%20GSOC%20Proposal.pdf)  
 - 💻 [GitHub Repository (Demo & Updates)](https://github.com/Gaurav05082002/PostgreSQL_GSOC)
