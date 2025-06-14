@@ -1,3 +1,7 @@
+A 
+checklist to remove angular based components 
+tick marked means that angular based components are removed
+
 
 📊 Dashboard: server-log-events.json
   - [ ] Panel: 'Top ERROR generating DBs' → Deprecated panel type: 'table' → Use 'table'
