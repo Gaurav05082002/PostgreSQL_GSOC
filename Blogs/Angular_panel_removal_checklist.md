@@ -1,6 +1,6 @@
 A 
 checklist to remove angular based components 
-tick marked means that angular based components are removed
+,tick marked means that angular based components are removed
 
 
 📊 Dashboard: server-log-events.json
