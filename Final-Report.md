@@ -48,4 +48,7 @@ To facilitate the migration of our Grafana dashboards to v12, one of the key tas
 | Legacy transformations inside queries| Use Grafana transformations like merge, reduce, add field           |
 | Time series panel                    | Use fieldConfig and options in panel JSON structure                  |
 
+###  JSON Refinement of dashboards as per v12 
+
+We simulated the data via a test database and used commands to simulate panels in the dashboard. We thoroughly checked the empty panels and updated their configurations to make them work with the new Grafana v12 format. After making necessary changes to the JSON structure, we saved the updated JSON files for both PostgreSQL and Prometheus dashboards in the `v12` folder of the repository.
 
