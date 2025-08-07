@@ -84,3 +84,23 @@ The update was applied across all relevant dashboards to standardize the query a
 |[Closed Issue: #783](https://github.com/cybertec-postgresql/pgwatch/issues/783)|some dashboards show "cannot cast jsonb null to type..." error|
 |[Closed Issue: #879](https://github.com/cybertec-postgresql/pgwatch/issues/879)|Docker-compose issues when building a project|
 
+### Future Works
+
+Fix the "Offline Nodes" panel in the "Global Health" dashboard, which currently outputs an error message (`relation "pgbouncer_stats" does not exist`) when no `pgbouncer` metrics are present in the data source. The solution involves adding a check to ensure that the `pgbouncer_stats` table exists before querying it and implementing error handling to prevent the dashboard from breaking when these metrics are unavailable.
+
+# Conclusion
+
+I am happy to have successfully achieved most of the goals set for this project. Working on this project has been an incredible learning experience. It has provided me with the opportunity to contribute to the open-source community, a space that initially felt overwhelming but now feels more approachable and clear. I’ve gained a deeper understanding of working on large codebases, tackling complex issues, and collaborating with talented individuals.
+
+The chance to participate in Google Summer of Code has been an invaluable opportunity. It allowed me to grow as a developer while contributing to an amazing organization. I am grateful for the opportunity to contribute to the community, which has been instrumental in my progress.
+
+I look forward to continuing to contribute and improving my skills as I further explore open-source development.
+# Acknowledgement
+
+I am deeply grateful to my mentors, **[Pavlo Golub](https://github.com/pashagolub)** and **[Rajiv Harlalka](https://github.com/rajivharlalka)**, for their unwavering support, insightful guidance, and encouragement throughout this project. Their expertise and patience have been invaluable in helping me overcome challenges and achieve the goals of this project.
+
+I would also like to thank the open-source community for being a constant source of inspiration and for providing valuable feedback and advice throughout the journey.
+
+Thanks to Google and the PostgreSQL community for offering me the incredible opportunity to contribute to this project. It has been an enriching learning experience, and I look forward to continuing my contributions to the open-source ecosystem in the future.
+
+
