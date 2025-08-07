@@ -52,3 +52,12 @@ To facilitate the migration of our Grafana dashboards to v12, one of the key tas
 
 We simulated the data via a test database and used commands to simulate panels in the dashboard. We thoroughly checked the empty panels and updated their configurations to make them work with the new Grafana v12 format. After making necessary changes to the JSON structure, we saved the updated JSON files for both PostgreSQL and Prometheus dashboards in the `v12` folder of the repository.
 
+### Issue with JSONB Null Casting in Grafana Queries
+
+In PostgreSQL, when using the `jsonb` data type, issues arise when trying to cast `jsonb` objects to numeric types. Specifically, when querying Grafana dashboards, the query used the operator `data->'load_5min'` to retrieve the `load_5min` value. However, `data->'load_5min'` returns a `jsonb` object, and PostgreSQL does not allow direct casting from a `jsonb` object to a numeric type like `float8`. This caused errors, particularly when the `load_5min` key was missing or had a `null` value.
+
+To fix the issue, we updated the query to use `data->>'load_5min'` instead of `data->'load_5min'`. The operator `data->>'load_5min'` returns a **text** value, which can be safely cast to numeric types like `float8`. This modification ensures that the query works even when `load_5min` is missing or `null`, preventing casting errors.
+
+The update was applied across all relevant dashboards to standardize the query and handle the casting errors. Below is an example of the change made:
+
+
