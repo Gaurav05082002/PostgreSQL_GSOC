@@ -31,3 +31,21 @@ The primary objective of this project is to update the dashboards, ensuring they
 - Export upgraded dashboards under a v12/ directory for PostgreSQL and Prometheus.
 - Document the migration process, including common issues, fixes, and future upgrade guidelines.
 
+## Project Results
+
+### How We Addressed the Migration to Grafana v12
+
+To facilitate the migration of our Grafana dashboards to v12, one of the key tasks was to replace deprecated AngularJS components. In Grafana v11, AngularJS-based components were still supported, but with the removal of AngularJS support in v12, it became crucial to update these components. We developed a Python script that scans multiple dashboard JSON files to identify any legacy AngularJS components. The script logs each deprecated usage along with its associated panel title, allowing for a systematic review and cleanup.
+
+### Deprecated AngularJS Components and Their Replacements for Grafana v12
+
+| Deprecated AngularJS Component        | Recommended Replacement for Grafana v12                               |
+|--------------------------------------|----------------------------------------------------------------------|
+| Text panel using HTML (AngularJS)    | Text panel (mode: Markdown) or Stat panel if numeric                  |
+| Deprecated panel type: singlestat    | Stat panel                                                          |
+| Deprecated panel type: graph         | Use of yaxes, lines, fill properties                                 |
+| Custom HTML in old panels            | Rewrite using Markdown or transparent Stat panels with tooltips     |
+| Legacy transformations inside queries| Use Grafana transformations like merge, reduce, add field           |
+| Time series panel                    | Use fieldConfig and options in panel JSON structure                  |
+
+
