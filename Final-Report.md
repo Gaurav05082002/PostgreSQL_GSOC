@@ -17,9 +17,11 @@
 
 ## Project Overview
 
-This project focuses on upgrading the existing pgwatch Grafana dashboards to ensure full compatibility with the latest Grafana version 12. While some dashboards have already been partially migrated, many still rely on outdated components and need manual refinement to ensure optimal performance. Grafana v11 introduced significant changes, including the removal of AngularJS support and updates to panel JSON structures and transformation capabilities. With the release of Grafana v12, further enhancements and updates have been made, making it crucial to migrate all dashboards to take full advantage of the new visualization features and capabilities.
+This project focused on upgrading the existing pgwatch Grafana dashboards to ensure full compatibility with the latest Grafana version 12. While some dashboards had already been partially migrated, many still relied on outdated components and required manual refinement to ensure optimal performance.
 
-The primary objective of this project is to update the dashboards, ensuring they are fully functional with Grafana v12, while also improving usability and maintaining high performance. This involves not only updating the visualization elements to align with the new version but also addressing any deprecated components and optimizing the dashboards for smoother user experience. In addition to the technical upgrades, the project will also include comprehensive documentation to guide future maintenance and ensure ease of future updates. This approach will ensure the longevity and continued efficiency of the dashboards in a rapidly evolving Grafana ecosystem.
+Grafana v11 had introduced significant changes, including the removal of AngularJS support and updates to panel JSON structures and transformation capabilities. With the release of Grafana v12, further enhancements and updates were made, making it crucial to migrate all dashboards to take full advantage of the new visualization features and capabilities.
+
+The primary objective of the project was to update the dashboards, ensuring they were fully functional with Grafana v12, while also improving usability and maintaining high performance. This involved not only updating the visualization elements to align with the new version but also addressing any deprecated components and optimizing the dashboards for a smoother user experience.In addition to the technical upgrades, the project included comprehensive documentation to guide future maintenance and ensure ease of future updates. This approach ensured the longevity and continued efficiency of the dashboards in a rapidly evolving Grafana ecosystem.
 
 ## Project Deliverables
 
